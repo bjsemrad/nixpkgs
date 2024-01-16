@@ -2035,6 +2035,22 @@ let
         };
       };
 
+      julialang.language-julia = {
+        mktplcRef = {
+          name = "language-julia";
+          publisher = "julialang";
+          version = "1.66.2";
+          sha256 = "sha256-CsrVmDOcozZ/8OV+r5SUi86LZMyQDqNk0Makmq3ayBk=";
+        };
+        meta = {
+          changelog = "https://marketplace.visualstudio.com/items/julialang.language-julia/changelog";
+          description = "Julia extension for Visual Studio Code";
+          downloadPage = "https://marketplace.visualstudio.com/items?itemName=julialang.language-julia";
+          homepage = "https://github.com/julia-vscode/julia-vscode";
+          license = lib.licenses.mit;
+        };
+      };
+
       justusadam.language-haskell = buildVscodeMarketplaceExtension {
         mktplcRef = {
           name = "language-haskell";
